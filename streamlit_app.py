@@ -6,6 +6,11 @@ import numpy as np
 st.write("# 보험료 예측")
 st.write("### Insurance predict")
 
+from PIL import Image
+image = Image.open('1.png')
+st.image(image)
+
+
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
